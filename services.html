@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Favicon requin -->
+  <link rel="icon" type="image/svg+xml" href="./image/favicon.svg" />
+  <link rel="shortcut icon" href="./image/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nos Services | Révision Moto, Scooter & Auto — Shark Motors</title>
+  <meta name="description" content="Révision, réparation, diagnostic moto et scooter à Molenbeek. Services auto : vidange, freinage, contrôle technique. Pièces détachées. Ouvert lun–sam 10h–18h." />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg class="logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Corps requin -->
+        <path d="M4 26 C8 20 14 18 22 19 C30 20 37 22 40 26 C37 28 30 30 22 30 C14 30 8 28 4 26Z" fill="#e8c252" opacity="0.15"/>
+        <path d="M4 26 C8 20 14 18 22 19 C30 20 37 22 40 26 C37 28 30 30 22 30 C14 30 8 28 4 26Z" stroke="#e8c252" stroke-width="1.2" fill="none"/>
+        <!-- Aileron dorsal -->
+        <path d="M20 19 L17 10 L26 19" stroke="#e8c252" stroke-width="1.4" stroke-linejoin="round" fill="#e8c252" fill-opacity="0.2"/>
+        <!-- Queue -->
+        <path d="M38 25 L42 21 M38 27 L42 31" stroke="#e8c252" stroke-width="1.4" stroke-linecap="round"/>
+        <!-- Oeil -->
+        <circle cx="13" cy="25" r="1.2" fill="#e8c252"/>
+        <!-- Sourire / dents stylisées -->
+        <path d="M9 27.5 L11 26.5 L13 27.5 L15 26.5 L17 27.5" stroke="#e8c252" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="logo-text"><span class="name">Shark <em>Motors</em></span><span class="sub">Motors</span></div>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="services.html" class="nav-link active">Services</a>
+      <a href="atelier.html" class="nav-link">Atelier</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <a href="tel:+3224634534" class="nav-phone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91A16 16 0 0 0 15 15.91l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>02 463 45 34</a>
+      <a href="contact.html" class="btn btn-primary">Prendre RDV</a>
+    </div>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html">Accueil</a><a href="services.html">Services</a><a href="atelier.html">Atelier</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary" style="margin-top:16px;">Prendre RDV</a>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="
+  background-image: url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1920&q=80&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.12;
+"></div>
+  <div class="container page-hero-content">
+    <div class="label reveal">Ce Qu'on Fait</div>
+    <h1 class="page-hero-title reveal reveal-delay-1">Nos <span>Services</span></h1>
+    <p class="page-hero-sub reveal reveal-delay-2">Révision, réparation et entretien pour motos, scooters et automobiles. Boutique de pièces sur place. Devis gratuit.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tabs-nav" role="tablist">
+      <button class="tab-btn active" role="tab" data-target="tab-motos">Motos & Scooters</button>
+      <button class="tab-btn" role="tab" data-target="tab-autos">Automobiles</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-motos">
+      <div class="svc-item reveal"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><div><div class="svc-title">Révision & Entretien Complet</div><p class="svc-text">Vidange huile, remplacement filtres, vérification transmission, réglage carburation. Votre moto repart en parfait état.</p></div></div>
+      <div class="svc-item reveal reveal-delay-1"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><div><div class="svc-title">Diagnostic Électronique</div><p class="svc-text">Lecture et effacement des codes défauts par valise électronique. Compatible toutes marques.</p></div></div>
+      <div class="svc-item reveal"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12l4 4 4-8"/></svg></div><div><div class="svc-title">Freins & Pneumatiques</div><p class="svc-text">Remplacement plaquettes, disques, câbles. Montage et équilibrage de pneus toutes dimensions.</p></div></div>
+      <div class="svc-item reveal reveal-delay-1"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><div><div class="svc-title">Système Électrique</div><p class="svc-text">Batterie, régulateur, alternateur, éclairage. Résolution des pannes électriques complexes.</p></div></div>
+      <div class="svc-item reveal"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div><div><div class="svc-title">Réparation Moteur</div><p class="svc-text">Rectification, remplacement segments, culasse, distribution. Remise à neuf complète ou partielle.</p></div></div>
+      <div class="svc-item reveal reveal-delay-1"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="svc-title">Transmission & Suspension</div><p class="svc-text">Courroie CVT, chaîne, pignons, fourche, amortisseurs. Réglage géométrie et équilibre.</p></div></div>
+    </div>
+
+    <div class="tab-panel" id="tab-autos">
+      <div class="svc-item reveal"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><div><div class="svc-title">Vidange & Filtres</div><p class="svc-text">Vidange huile moteur, remplacement filtre à huile, air, habitacle et carburant.</p></div></div>
+      <div class="svc-item reveal reveal-delay-1"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12l4 4 4-8"/></svg></div><div><div class="svc-title">Freinage</div><p class="svc-text">Contrôle et remplacement plaquettes, disques, tambours et liquide de frein.</p></div></div>
+      <div class="svc-item reveal"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v4h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><div><div class="svc-title">Préparation Contrôle Technique</div><p class="svc-text">Inspection complète avant passage au contrôle technique. Correction des défauts.</p></div></div>
+      <div class="svc-item reveal reveal-delay-1"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><div><div class="svc-title">Batterie & Électricité</div><p class="svc-text">Diagnostic électrique, remplacement batterie, démarreur, alternateur.</p></div></div>
+      <div class="svc-item reveal"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><div><div class="svc-title">Diagnostic OBD</div><p class="svc-text">Lecture des codes erreur, réinitialisation des témoins, diagnostic complet.</p></div></div>
+      <div class="svc-item reveal reveal-delay-1"><div class="svc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="svc-title">Climatisation</div><p class="svc-text">Recharge et entretien du système de climatisation. Remplacement compresseur et filtre habitacle.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="label reveal">Boutique</div>
+    <h2 class="section-title reveal reveal-delay-1">Pièces <span>Détachées</span></h2>
+    <p class="section-sub reveal">Large stock de pièces d'origine et compatibles, disponibles directement en magasin.</p>
+    <div class="pieces-grid">
+      <div class="piece-card reveal"><div class="piece-emoji">⚙️</div><div class="piece-title">Filtres & Huiles</div><p class="piece-text">Huiles moteur, filtres air, huile et carburant</p></div>
+      <div class="piece-card reveal reveal-delay-1"><div class="piece-emoji">🔧</div><div class="piece-title">Transmission</div><p class="piece-text">Courroies CVT, chaînes, pignons, variateurs</p></div>
+      <div class="piece-card reveal reveal-delay-2"><div class="piece-emoji">🛞</div><div class="piece-title">Pneus & Jantes</div><p class="piece-text">Toutes dimensions, toutes marques</p></div>
+      <div class="piece-card reveal reveal-delay-3"><div class="piece-emoji">⚡</div><div class="piece-title">Électrique</div><p class="piece-text">Batteries, régulateurs, ampoules LED</p></div>
+      <div class="piece-card reveal"><div class="piece-emoji">🔩</div><div class="piece-title">Freinage</div><p class="piece-text">Plaquettes, disques, liquide de frein</p></div>
+      <div class="piece-card reveal reveal-delay-1"><div class="piece-emoji">🪖</div><div class="piece-title">Équipement Pilote</div><p class="piece-text">Casques, gants, blousons, protections</p></div>
+      <div class="piece-card reveal reveal-delay-2"><div class="piece-emoji">💨</div><div class="piece-title">Suspension</div><p class="piece-text">Amortisseurs, joints fourche, ressorts</p></div>
+      <div class="piece-card reveal reveal-delay-3"><div class="piece-emoji">🔌</div><div class="piece-title">Accessoires</div><p class="piece-text">Antivols, GPS, supports téléphone</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="brand-name">Shark Motors</div><div class="brand-tag">Mécanique Moto & Auto</div><p>Shark Motors — votre atelier moto &amp; auto à Molenbeek.</p><div class="footer-info"><div class="footer-info-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Rue d'Ostende 66-68, 1080 Molenbeek</div><div class="footer-info-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91A16 16 0 0 0 15 15.91l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+3224634534">02 463 45 34</a></div></div></div>
+      <div><div class="footer-col-title">Navigation</div><ul class="footer-links"><li><a href="index.html">Accueil</a></li><li><a href="services.html">Nos Services</a></li><li><a href="atelier.html">Notre Atelier</a></li><li><a href="contact.html">Contact & RDV</a></li></ul></div>
+      <div><div class="footer-col-title">Services</div><ul class="footer-links"><li><a href="services.html">Moto & Scooter</a></li><li><a href="services.html">Automobile</a></li><li><a href="services.html">Pièces Détachées</a></li><li><a href="contact.html">Devis Gratuit</a></li></ul></div>
+      <div><div class="footer-col-title">Horaires</div><div class="footer-hours"><div class="footer-hour-row"><span>Lun – Ven</span><span class="hour-open">10:00 – 18:00</span></div><div class="footer-hour-row"><span>Samedi</span><span class="hour-open">10:00 – 18:00</span></div><div class="footer-hour-row"><span>Dimanche</span><span class="hour-closed">Fermé</span></div></div></div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© <span id="year"></span> <span>Shark Motors</span></div>
+      <div class="footer-social"><a href="https://facebook.com" target="_blank" rel="noopener" class="social-link" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a><a href="https://instagram.com" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a></div>
+      <div class="footer-legal"><a href="#">Mentions Légales</a><a href="#">Confidentialité</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="intro.js"></script>
+<script src="main.js"></script>
+<script src="effects.js"></script>
+<script>
+  // Tabs
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(btn.dataset.target).classList.add('active');
+    });
+  });
+</script>
+
+<script src="intro.js"></script>
+<script src="main.js"></script>
+<script src="effects.js"></script>
+<script>
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(btn.dataset.target).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
